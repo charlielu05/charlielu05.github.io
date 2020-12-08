@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Calculating the Posterior for Bayesian Regression Model
+title: Calculating the Posterior for Bayesian Regression Model (*in progress*)
 ---
 
 This post seeks to write down the explicit steps and reasoning involved to come up with the posterior representation in a [[Bayesian Linear Regression]] model.

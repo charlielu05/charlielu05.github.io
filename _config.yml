@@ -54,7 +54,7 @@ theme: minima
 
 plugins:
 - jekyll-feed
- - jekyll-seo-tag
+- jekyll-seo-tag
 
 markdown: kramdown
 kramdown:
