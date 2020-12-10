@@ -11,7 +11,7 @@ This slowly pushed me to look more seriously into Bayesian models where the unde
 
 This topic on Bayesian Regression will be split into multiple parts. I will begin by describing the normal OLS model, this will move to an overview of the Bayesian perspective on Regression and further details on how the posterior for a Bayesian model is calculated. I will also be using one of my project as an example where Bayesian models were able to produce more accurate Regression predictions.
 
-**Part 1: Normal OLS Model**
+**Part 1: Normal OLS Model (This post)**
 
 **Part 2: The Bayesian Lens**
 
@@ -21,9 +21,9 @@ This topic on Bayesian Regression will be split into multiple parts. I will begi
 
 ---
 **Normal OLS Model**
-
-![image](/assets/img/linear_regression.png)
-
+{:refdef: style="text-align: center;"}
+![image](/assets/img/lr_drawn.png){:height="300px"}
+{: refdef}
 The image above demonstrates a classic example of linear regression where we seek to model the relationship between our input/independent variable $$X$$ and our prediction/dependant variable $$y$$. In plain speak, we want to find out what is the most likely value of $$y$$ given that we know the value of $$X$$. A simple but classic example of this is Francis Galton's Father and Son height dataset where given the height of the father ($$X$$) you could predict the son's height ($$y$$).
 
 $$y(x,w)=\sum\limits_{j=0}^{M-1} w_{j}\phi_{j}(x) = w^{T} \phi(x)$$
@@ -42,10 +42,11 @@ Once these weights $$w$$ are found for each column/feature, to predict a value f
 
 The important result is that the weights found from pseudo-inverse is a point estimate or a single value of the weights, meaning we place no uncertainty on the weights itself but only on the dependant variable. The result is that we place equal uncertainty bounds on our prediction which goes against the intuitive idea that  we should be more uncertain of new input test data that are different or further away from the training input data used to find the weights.
 
-The plot below from *[3]* demonstrates the idea, the left plot is our result from the pseudo-inverse where the red circles are the training data used to find the weights and the right plot is the same data but using a Bayesian regression model where the predictive density takes into account of the uncertainty in the weights reflected in the wider prediction variance for test input data further away from the training data.
-
-![image](/assets/img/regression_variance.png)
-
+The plots below from *[3]* demonstrates the idea, the top plot is our result from the pseudo-inverse where the red circles are the training data used to find the weights and the bottom plot is the same data but using a Bayesian regression model where the posterior predictive density takes into account of the uncertainty in the weights reflected in the wider prediction variance for predictions made further away from the training data.
+{:refdef: style="text-align: center;"}
+![image](/assets/img/mle_approx.png){:height="300px"}
+![image](/assets/img/posterior_predictive.png){:height="300px"}
+{: refdef}
 The next part in this series of posts will cover Regression model but this time with a Bayesian perspective. We will see that both the 'Frequentist' and 'Bayesian' perspective on Regression are fundamentally similar and how the additional complexity added by the Bayesian model gives us additional freedom in modelling our problem.
 
 See you next post!
