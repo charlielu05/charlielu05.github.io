@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bayesian Regression Model (Part.2)
+title: Bayesian Regression Model (Part 2)
 ---
 
 In part 1 of the Bayesian Regression Model, I covered how the traditional OLS interpretation of regression is obtained. I followed this up with an example of the short coming in terms of the predictive uncertainty and how the OLS model may be over confident in predictions even when it has no data to support its claims.

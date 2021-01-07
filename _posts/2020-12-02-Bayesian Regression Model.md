@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bayesian Regression Model (Part.1)
+title: Bayesian Regression Model (Part 1)
 ---
 
 Ever since I started working in Data Science and delving deeper into Machine learning models, I have had a strong interest in learning about Bayesian models. It was never really clear to me though why or when a "Bayesian" model would be preferred compared to the more traditional OLS or Tree based models that I was more accustomed to, so there was never really a drive to get serious in learning about it.
