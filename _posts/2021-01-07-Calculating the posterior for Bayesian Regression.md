@@ -39,8 +39,9 @@ $$\theta_{0}$$: prior theta \
 $$\theta_{\theta}$$: new theta
 
 **Expanding out $$p(\theta)$$** \
-$$-\frac{1}{2}((\theta-\theta_{0})^{T}(\Sigma_{\theta}^{-1}\theta-\Sigma_{\theta}^{-1}\theta_{0}))
--\frac{1}{2}(\theta^{T}\Sigma_{\theta}^{-1}\theta-\theta^{T}\Sigma_{\theta}^{-1}\theta_{0}-\theta_{0}^{T}\Sigma_{\theta}^{-1}\theta+\theta_{0}^{T}\Sigma_{\theta}^{-1}\theta_{0})$$
+$$-\frac{1}{2}((\theta-\theta_{0})^{T}(\Sigma_{\theta}^{-1}\theta-\Sigma_{\theta}^{-1}\theta_{0}))$$ \
+Expanding out further: \
+$$-\frac{1}{2}(\theta^{T}\Sigma_{\theta}^{-1}\theta-\theta^{T}\Sigma_{\theta}^{-1}\theta_{0}-\theta_{0}^{T}\Sigma_{\theta}^{-1}\theta+\theta_{0}^{T}\Sigma_{\theta}^{-1}\theta_{0})$$
 \
 Notice that the 2nd and 3rd group of terms are equivalent, therefore we can re-write as: \
 $$-\frac{1}{2}(\theta^{T}\Sigma_{\theta}^{-1}\theta-2\theta^{T}\Sigma_{\theta}^{-1}\theta_{0}+\theta_{0}^{T}\Sigma_{\theta}^{-1}\theta_{0})$$
