@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Calculating the Posterior for Bayesian Regression Model (Part 3)
 ---
 

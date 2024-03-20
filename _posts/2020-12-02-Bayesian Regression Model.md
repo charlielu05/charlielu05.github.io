@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Bayesian Regression Model (Part 1)
 ---
 

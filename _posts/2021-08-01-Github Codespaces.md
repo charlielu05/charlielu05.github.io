@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Code anywhere with Github Codespaces
 ---
 {:refdef: style="text-align: center;"}

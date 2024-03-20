@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Deriving the Normal Equation from an Optimization perspective
 ---
 I was watching through the lecture video about Optimization methods taught by Nando de Freitas and learnt something interesting that I'd like to share. Since I'm predominantly self taught, I've watched through many different videos about Machine Learning topics on Youtube. Nando has a rare quality of being able to distill complicated topics and explain them in a very intuitive way. I've thoroughly benefited from his materials and would highly recommend watching his video lectures on Youtube if you're interested in Machine Learning.

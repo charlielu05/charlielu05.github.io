@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Why companies fail with Data Science
 ---
 {:refdef: style="text-align: center;"}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Passed my AWS Solutions Architect Exam!
 ---
 {:refdef: style="text-align: center;"}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "'Make' your DevOps life easier"
 ---
 One of the common tasks you need to set up in your CICD pipeline is to assume an AWS role or run some program/scripts /commands such as bash, cloudformation or terraform.
