@@ -3,7 +3,7 @@ layout: post
 title: Code anywhere with Github Codespaces
 ---
 {:refdef: style="text-align: center;"}
-![image](https://github.githubassets.com/images/modules/site/codespaces/codespaces-icon.png){:height="300px"}
+![image](https://learn.microsoft.com/en-us/training/media/student-hub/GithubCodespaces-02.png){:height="300px"}
 {: refdef}
 
 I've recently traded up my old 2018 iPad Pro 11" to a 2021 12.9" version with the magic keyboard. Apart from using it as just my Youtube/Netflix machine, I always wanted to try out the "Digital Nomad" life style since my new job is 100% working from home. Even though I've got quite a high spec MacBook Pro 16", lugging around a 2kg machine around with me in a large backpack just didn't seem appealing to me. <br>
